@@ -1,0 +1,110 @@
+doctype html
+html
+  head
+    title UCDocIT
+    link(href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css', rel='stylesheet')
+    link(rel='stylesheet', href='Layout.CSS', type='text/css')
+    link(rel='stylesheet', href='switches.css', type='text/css')
+  body
+    // navigation
+    // where I got the navigation http://codepen.io/evandrofalleiros/pen/uHgmx
+    nav#menu
+      button.btn.btn-default.user(type='button', aria-label='Left Align')
+        span.glyphicon.glyphicon-user(aria-hidden='true')
+      .input-group
+        span.input-group-btn
+          button.btn.btn-default(type='button') Go!
+        input.form-control(type='text', placeholder='Search for...')
+      // /input-group
+      ul
+        li
+          a(href='dashboard.html')
+            span.entypo-home
+            | Dashboard
+        li
+          a(href='switches.html')
+            span.entypo-newspaper
+            | Switches
+        li
+          a(href='#')
+            span.entypo-calendar
+            | Access Points
+        li
+          a(href='#')
+            span.entypo-info-circled
+            | Buildings
+        li
+          a(href='#')
+            span.entypo-phone
+            | Servers
+        li
+          a(href='#')
+            span.entypo-phone
+            | VLans
+        li
+          a(href='#')
+            span.entypo-phone
+            | Phones/Ariels
+    // header
+    .content
+      header
+        a.abrir(href='#menu')
+          span.glyphicon.glyphicon-menu-hamburger(aria-hidden='true')
+        a.fechar(href='#')
+          span.glyphicon.glyphicon-menu-hamburger(aria-hidden='true')
+        h1 Switches
+    section
+      table
+        tr
+          th Name
+          th Downlink
+          th Uplink
+          th Location
+          th Type/Model
+          th J#
+          th Firmware
+        tr
+          td
+            a(href='switchInfo.html') sw100
+          td NA
+          td NA
+          td PSR-Dick
+          td 2848
+          td J4904A
+          td I.10.105
+        tr
+          td
+            a(href='switchInfo.html') sw100
+          td NA
+          td NA
+          td PSR-Dick
+          td 2848
+          td J4904A
+          td I.10.105
+        tr
+          td
+            a(href='switchInfo.html') sw100
+          td NA
+          td NA
+          td PSR-Dick
+          td 2848
+          td J4904A
+          td I.10.105
+        tr
+          td
+            a(href='switchInfo.html') sw100
+          td NA
+          td NA
+          td PSR-Dick
+          td 2848
+          td J4904A
+          td I.10.105
+        tr
+          td
+            a(href='switchInfo.html') sw100
+          td NA
+          td NA
+          td PSR-Dick
+          td 2848
+          td J4904A
+          td I.10.105
