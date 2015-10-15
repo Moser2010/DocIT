@@ -13,15 +13,17 @@
        
             <!-- where I got the navigation http://codepen.io/evandrofalleiros/pen/uHgmx -->
         <nav id="menu">
-            <a class="lightbox" href="#goofy">
+            <a class="lightbox goBtn" href="#goofy">
                 <button type="button" class="btn btn-default user" aria-label="Left Align">
                     <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
                 </button>
             </a>
                 <div class="input-group">
-                    <span class="input-group-btn">
-                        <button class="btn btn-default" type="button">Go!</button>
-                    </span>
+                        <span class="input-group-btn">
+                              <a class = "goBtn"href ="https://www.google.com/">
+                            <button class="btn btn-default" type="button">Go!</button>
+                            </a>
+                        </span>
                     <input type="text" class="form-control" placeholder="Search for...">
                 </div><!-- /input-group -->
           <ul>
@@ -50,8 +52,8 @@
         <div class="lightbox-target" id="goofy">
           <div class="form">
               <form action="demo_form.asp">
-                    First name: <input type="text" name="FirstName" ><br>
-                    Last name: <input type="text" name="LastName"><br>
+                    <strong>Username:</strong><input type="text" name="FirstName" ><br>
+                    <strong>Password:</strong><input type="text" name="LastName"><br>
                     <input type="submit" value="Submit">
                 </form>
           </div>
